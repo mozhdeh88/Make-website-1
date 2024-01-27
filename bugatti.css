@@ -41,11 +41,16 @@ img{
     border-radius: 20px;
 }
 section.sub{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
+
 table{
-    width: 40%;
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    margin-top: 150px;
 }
 
 table, tr, td {
@@ -53,7 +58,12 @@ table, tr, td {
 
 }
 div.jad{
-    position: relative;
+    /* position: relative;
     top: 150px;
-    left: 400px;
+    left: 400px; */
+}
+@media (max-width:790px) {
+    table{
+        width: 300px;
+    }
 }

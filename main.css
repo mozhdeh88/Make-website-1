@@ -24,26 +24,30 @@ section.head{
     display: flex;
     justify-content: space-around;
 }
-article.text{
+.text{
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    width: 1280px;
-    height: 200px;
-    position: relative;
+    border-color: black;
+    margin: 100px 50px 100px 50px;
+    /* width: 1280px;
+    height: 200px; */
+    /* position: relative;
     top: 150px;
-    left: 30px;
+    left: 30px; */
 }
 h2 {
-    position: relative;
+    padding-top:20px;
+    padding-left: 30px;
+    /* position: relative;
     left: 20px;
-    top: 15px;
+    top: 15px; */
 }
 p{
 font-size: medium;
-width: fit-content;
-height: 180px;
-padding: 20px;
+/* width: fit-content;
+height: 180px; */
+padding: 15px;
 }
 section div{
     text-align: center;
@@ -58,6 +62,7 @@ section div{
     padding: 12px;
 }
 section.sub{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
