@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(209, 199, 240);
+}
+main{
+    position: relative;
+}
+section button{
+    color: black;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(223, 226, 245);
+    border-radius: 35px;
+    font-style:inherit;
+    font-weight: bold;
+}
+section.head{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding: 10px;
+    background-color: rgb(163, 163, 167);
+    display: flex;
+    justify-content: space-around;
+}
+section div{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    width: 180px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(9, 9, 41);
+    background-color: rgb(166, 159, 235);
+    border-radius: 30px;
+    padding: 12px;
+}
+img{
+    width: 170px;
+    height: 90px;
+    border-radius: 20px;
+}
+section.sub{
+    display: flex;
+    justify-content: space-around;
+}
+article.text{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    width: 1250px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
+h2 {
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+a:hover{
+    color: rgb(240, 52, 67);
+    font-size: 20px;
+}
+p{
+font-size: medium;
+width: fit-content;
+margin: 15px;
+padding: 15px;
+}
+p:active{
+color: blueviolet;
+}
