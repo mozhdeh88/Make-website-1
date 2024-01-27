@@ -42,7 +42,9 @@ img{
 }
 section.sub{
     flex-direction: row;
-    flex-wrap:wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 article.text{
     border-style: solid;
