@@ -26,9 +26,9 @@ section.head{
 section div{
     text-align: center;
     position: relative;
-    top: 80px;
+    top: 30px;
     width: 180px;
-    height: 200px;
+    height: 190px;
     border-style: solid;
     border-color: rgb(68, 26, 9);
     background-color: rgb(231, 189, 169);
@@ -41,23 +41,27 @@ img{
     border-radius: 20px;
 }
 section.sub{
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 20px;
 }
 article.text{
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
     width: 1250px;
-    height: 500px;
+    height: 700px;
     position: relative;
-    top: 150px;
+    top: 110px;
     left: 30px;
 }
 h2 {
-    position: relative;
-    left: 25px;
-    top: 20px;
+    text-align: left;
+}
+article,p{
+    text-wrap:stable;
+    margin: 20px;
+    padding: 10px;
 }
