@@ -100,10 +100,13 @@ div.ar{
 }
 .box1{
     margin-top: 150px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .box2{
-    margin-left: 60px;
+    margin-left: 40px;
     border-left: 1px solid black;
     padding-left: 30px;
+}
+div.p{
+    text-overflow:inherit;
 }
