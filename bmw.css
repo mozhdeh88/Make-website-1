@@ -49,8 +49,8 @@ img{
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
-    width: 1250px;
-    height: 500px;
+    width: 90%;
+    height: 90%;
     position: relative;
     top: 150px;
     left: 30px;
@@ -73,10 +73,15 @@ padding: 15px;
 p:active{
 color: blueviolet;
 }
-@media (max-width:500px) {
+@media (max-width:1200px) {
     .text{
-        width: 300px;
-        height: 1200px;
+        width: auto;
+        height: auto;
     }
-    
+}
+@media (max-width:700px) {
+    .text{
+        width: auto;
+        height: auto;
+    }
 }
